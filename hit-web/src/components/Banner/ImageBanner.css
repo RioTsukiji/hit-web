@@ -1,0 +1,21 @@
+.image-banner {
+    position: relative;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.image-banner img {
+	width: 100%;
+	height: auto;
+}
+
+.banner-text {
+	font-size: 3vw;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+	padding-left: 20px;
+    transform: translate(-50%, -50%);  /* 自身の中心を基準に移動 */
+    color: white;  /* テキストの色を白に設定 */
+    /* 必要に応じて他のスタイルを追加 */
+}

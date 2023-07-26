@@ -1,0 +1,4 @@
+.content-row {
+    display: flex;  /* フレックスボックスレイアウトを適用 */
+    justify-content: space-around;  /* 子要素を親要素の間隔で均等に配置 */
+}
