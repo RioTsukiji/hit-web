@@ -8,8 +8,8 @@ const Header = () => {
             {/* その他に、ナビゲーションリンクなどをここに追加できます。 */}
 			<nav>
                 <a href="#activity">Activity</a>
+                <a href="#schedule">Schedule</a>
                 <a href="#works">Works</a>
-                <a href="#blog">Blog</a>
             </nav>
         </header>
     );

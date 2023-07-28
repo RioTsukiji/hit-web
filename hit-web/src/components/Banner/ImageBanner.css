@@ -19,3 +19,20 @@
     color: white;  /* テキストの色を白に設定 */
     /* 必要に応じて他のスタイルを追加 */
 }
+
+.banner-button {
+    position: relative;
+    right: -20px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF; /* ボタンの背景色 */
+    text-decoration: none; /* リンクの下線を消す */
+    border-radius: 5px; /* ボタンの角を丸くする */
+    font-size: 1.25rem; /* フォントサイズを調整 */
+    margin-top: 10px; /* テキストとの間隔を調整 */
+}
+
+.banner-button:hover {
+    background-color: #0056b3; /* マウスオーバー時の色 */
+}

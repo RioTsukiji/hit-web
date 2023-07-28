@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import ImageBanner from './components/Banner/ImageBanner';
-import ContentRow from './components/Content/ContentRow';
+import ContentColumn from './components/Content/ContentColumn';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <ImageBanner />
-      <ContentRow />
+      <ContentColumn />
       <Footer />
     </div>
   );
