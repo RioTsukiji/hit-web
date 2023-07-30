@@ -11,7 +11,7 @@ const Works = () => {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<img src="/images/apple.png" alt="説明文" className='works-img-1'/>
+					<img src="/images/apple.png" alt="説明文" className='works-img'/>
 				</a>
 			</div>
 			<div className="img-container">
@@ -19,7 +19,7 @@ const Works = () => {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<img src="/images/google.png" alt="説明文" className='works-img-2'/>
+					<img src="/images/google.png" alt="説明文" className='works-img'/>
 				</a>
 			</div>
         </section>

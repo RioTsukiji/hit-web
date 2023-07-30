@@ -1,19 +1,17 @@
 #works {
     text-align: center;
+}
 
+#works h2 {
+    font-size: 2.0em;
 }
 
 section {
     max-width: 100%;  /* 最大幅を設定 */
 }
 
-.works-img-1 {
+.works-img {
     width: 30%;
-    height: auto;  /* 高さは自動（アスペクト比を保つ） */
-}
-
-.works-img-2 {
-    width: 47%;
     height: auto;  /* 高さは自動（アスペクト比を保つ） */
 }
 
