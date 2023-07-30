@@ -18,19 +18,16 @@ const Header = () => {
             </div>
 
             {/* ドロワーメニューのコード */}
-            {isMenuOpen && (
-                <div className="drawer-menu">
+                <div className={`drawer-menu ${isMenuOpen ? 'open' : ''}`}>
                     <nav>
                         <a href="#activity" onClick={toggleMenu}>Activity</a>
-                        <a href="#schedule" onClick={toggleMenu}>Schedule</a>
                         <a href="#works" onClick={toggleMenu}>Works</a>
                     </nav>
                 </div>
-            )}
+            
 			
             <nav className="header-menu">
                 <a href="#activity">Activity</a>
-                <a href="#schedule">Schedule</a>
                 <a href="#works">Works</a>
             </nav> 
         </header>
