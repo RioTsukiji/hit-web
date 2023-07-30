@@ -79,29 +79,12 @@ header h1 {
 		display: flex;
     }
 
-	.drawer-menu {
-        display: block;
-        position: fixed;
-		top: 60px;
-        left: 0;
-        height: 30%;  /* viewport height */
-        width: 50%;
-        background-color: white;
-        color: white;
-        z-index: 9999;
-		/* transform: translateX(100%);
-		transition: transform 0.3s ease-in-out; */
-    }
-
-	/* .drawer-menu.open {
-		transform: translateX(0);
-	} */
-
     .drawer-menu nav {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
+		padding-top: 20px;
         height: 100%;
     }
 
@@ -110,5 +93,7 @@ header h1 {
 		margin-bottom: 20px;
 		color: #333;
 		text-decoration: none;
+		border-bottom: 1px solid #ccc;
+		padding: 10px 0;
 	}
 }
