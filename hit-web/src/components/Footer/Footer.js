@@ -4,7 +4,7 @@ import './Footer.css';  // フッター用のCSSをインポートします。
 const Footer = () => {
     return (
         <footer>
-            <p>© 2023 Bashi.com Website. All rights reserved.</p>
+            <p>© 2023 Bashi.com</p>
         </footer>
     );
 };
