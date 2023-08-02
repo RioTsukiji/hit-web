@@ -1,0 +1,25 @@
+#intro {
+	text-align: center;
+}
+
+.intro-button {
+    width: 120px;
+    height: 120px;
+    opacity: 0.6;
+    background: #6bacbc99;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+	transition: all 0.15s ease-in-out;
+}
+
+.intro-button:hover {
+    opacity: 1;
+	box-shadow: 0px 8px 15px rgba(4, 2, 2, 0.292);
+}
+
+p {
+	padding-left: 30px;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import ActivityContext from './components/Content/ActivityContext';
+import IntroContext from './components/Content/IntroContext';
 import Header from './components/Header/Header';
 import ImageBanner from './components/Banner/ImageBanner';
 import ContentColumn from './components/Content/ContentColumn';
@@ -7,10 +7,10 @@ import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
-  const activities = [
+  const intros = [
     { id: '1', 
       title: 'このサークルについて', 
-      detail: 'このサークルは、一橋大学内のデベロッパーコミュニティです。Webサイトやアプリの作成・デザインに興味がある方の入会を募集しています！学年・年齢は問いません。'
+      detail: 'このサークルは、一橋大学内のデベロッパーコミュニティです。Webサイトやアプリの開発・デザインに興味がある方の入会を募集しています！学年・年齢は問いません。'
     },
     { id: '2',
       title: '活動内容 / 活動場所',
@@ -19,14 +19,14 @@ function App() {
   ]
 
   return (
-    <ActivityContext.Provider value={activities}>
+    <IntroContext.Provider value={intros}>
       <div className="App">
         <Header />
         <ImageBanner />
         <ContentColumn />
         <Footer />
       </div>
-    </ActivityContext.Provider>
+    </IntroContext.Provider>
   );
 }
 

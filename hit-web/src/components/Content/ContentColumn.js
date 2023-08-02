@@ -1,19 +1,19 @@
 import React, {useState, useContext} from 'react';
-import ActivityContext from './ActivityContext';
-import ActivityList from './ActivityList';
-import ActivityDetail from './ActivityDetail';
+import IntroContext from './IntroContext';
+import IntroList from './IntroList';
+import IntroDetail from './IntroDetail';
 import Works from './Works';
 import './ContentColumn.css';
 
 const ContentColumn = () => {
-    const activities = useContext(ActivityContext);
-    const [selectedActivity, setSelectedActivity] = useState(null);
+    const intros = useContext(IntroContext);
+    const [selectedIntro, setSelectedIntro] = useState(null);
     
     return (
         <div className="content-column">
-            {selectedActivity
-                ? <ActivityDetail activity={selectedActivity} onBack={() => setSelectedActivity(null)} />
-                : <ActivityList activities={activities} onSelect={id => setSelectedActivity(activities.find(activity => activity.id === id))} />}
+            {selectedIntro
+                ? <IntroDetail intro={selectedIntro} onBack={() => setSelectedIntro(null)} />
+                : <IntroList intros={intros} onSelect={id => setSelectedIntro(intros.find(intro => intro.id === id))} />}
             <Works />
         </div>
     );
