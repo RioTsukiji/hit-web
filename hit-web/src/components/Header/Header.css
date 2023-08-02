@@ -18,8 +18,8 @@ header {
 }
 
 header h1 {
-	font-size: 1.8rem;
-	font-weight: 500;
+	font-size: 1.6rem;
+	font-weight: 640;
 	padding-left: 20px;
 	box-sizing: border-box;
 	margin: 0;
@@ -38,7 +38,7 @@ header h1 {
 .burger-menu {
 	display: none;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: center;
 	width: 2rem;
 	height: 2rem;
 	cursor: pointer;
@@ -47,7 +47,7 @@ header h1 {
 
 .burger-menu div {
 	width: 1.5rem;
-	height: 0.15rem;
+	height: 0.10rem;
 	background-color: #333;
 }
 
@@ -77,6 +77,10 @@ header h1 {
     .burger-menu {
 		display: flex;
     }
+
+	.burger-menu div {
+		margin: 0.15rem 0;
+	}
 
     .drawer-menu nav {
         display: flex;
