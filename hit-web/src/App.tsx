@@ -1,5 +1,5 @@
 import React from 'react';
-import IntroContext from './components/Content/IntroContext';
+import NewsContext from './components/Content/NewsContext';
 import Header from './components/Header/Header';
 import ImageBanner from './components/Banner/ImageBanner';
 import ContentColumn from './components/Content/ContentColumn';
@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
-  const intros = [
+  const news = [
     { id: '1', 
       title: 'このサークルについて', 
       detail: 'このサークルは、一橋大学内のデベロッパーコミュニティです。Webサイトやアプリの開発・デザインに興味がある方の入会を募集しています！学年・年齢は問いません。'
@@ -19,14 +19,14 @@ function App() {
   ]
 
   return (
-    <IntroContext.Provider value={intros}>
+    <NewsContext.Provider value={news}>
       <div className="App">
         <Header />
         <ImageBanner />
         <ContentColumn />
         <Footer />
       </div>
-    </IntroContext.Provider>
+    </NewsContext.Provider>
   );
 }
 
