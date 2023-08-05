@@ -11,9 +11,10 @@ const ContentColumn = () => {
     
     return (
         <div className="content-column">
-            {selectedNews
-                ? <NewsDetail news={selectedNews} onBack={() => setSelectedNews(null)} />
-                : <NewsList news={news} onSelect={id => setSelectedNews(news.find(newsItem => newsItem.id === id))} />}
+            <NewsList news={news} onSelect={id => setSelectedNews(news.find(newsItem => newsItem.id === id))} />
+            {selectedNews &&
+                <NewsDetail news={selectedNews} onBack={() => setSelectedNews(null)} />
+            }
             <Works />
         </div>
     );

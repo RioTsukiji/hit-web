@@ -1,18 +1,35 @@
-#news h2 {
-	color: #6b6868;
-	font-size: 4.0vw;
-    text-align: left;
-	margin-left: 40px;
+#newsdetail {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001; /* overlayよりも上に来るようにする */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-#news p {
-	font-size: 1.0em;
+#newsdetail h2 {
+	color: #6b6868;
+	font-size: 4.0vw;
+}
+
+#newsdetail p {
+	font-size: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button {
     display: inline-block;
-    background-color: #008CBA; /* 青 */
-    color: white; /* テキストは白 */
+    background-color: #63bbd8;
+    color: white;
     padding: 14px 20px;
     margin: 10px 2px;
     border: none;
@@ -21,13 +38,13 @@
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    transition: all 0.5s;
+    transition: all 0.2s;
     width: 80px;
     opacity: 0.9;
-    box-shadow: 2px 5px 10px rgba(0,0,0,0.2);
+    /* box-shadow: 2px 5px 10px rgba(0,0,0,0.2); */
 }
 
 .button:hover {
-    background-color: #4CAF50; /* 緑 */
+    background-color: #0057b3ae;
     color: white;
 }

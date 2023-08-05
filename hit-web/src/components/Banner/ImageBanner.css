@@ -36,13 +36,14 @@
     left: 40px;
     display: inline-block;
     padding: 10px 15px;
-    color: white;
-    background-color: #63bbd8; /* ボタンの背景色 */
+    color: rgba(255, 255, 255, 0.875);
+    background-color: #63bbd8df; /* ボタンの背景色 */
     text-decoration: none; /* リンクの下線を消す */
     border-radius: 10px; /* ボタンの角を丸くする */
     font-size: 4.0vw; /* フォントサイズを調整 */
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.553);
 }
 
 .banner-button:hover {
-    background-color: #0056b3; /* マウスオーバー時の色 */
+    background-color: #0057b3ae; /* マウスオーバー時の色 */
 }
