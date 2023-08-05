@@ -14,7 +14,7 @@ function App() {
     },
     { id: '2',
       title: 'WEB開発',
-      detail: 'HTML/CSS/JavaScript(TypeScript)を用いて当サイトの開発を行っています。JavaScriptのライブラリにはReactを用いており、モダンでスタンダードな技術に触れられます。'
+      detail: 'HTML/CSS/JavaScript(TypeScript)を用いて当サイトを開発しています。JavaScriptのライブラリにはReactを用いており、モダンでスタンダードな技術に触れられます。'
     },
     { id: '3',
       title: 'アプリ開発',

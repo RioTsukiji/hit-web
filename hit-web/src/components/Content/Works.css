@@ -9,10 +9,13 @@ section {
     max-width: 100%;  /* 最大幅を設定 */
 }
 
+.main_image img {
+    margin-left: 10vw;
+}
+
 .works-img {
     width: 30%;
     height: auto;  /* 高さは自動（アスペクト比を保つ） */
-    
 }
 
 .img-container {

@@ -14,8 +14,8 @@
 }
 
 .news-button {
-    width: 320px;
-    height: 80px;
+    width: 80vw;
+    height: 20vw;
     opacity: 0.6;
     background: white;
     color: #121010;

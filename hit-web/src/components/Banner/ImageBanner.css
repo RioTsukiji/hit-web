@@ -7,16 +7,16 @@
 .image-banner h2 {
     font-size: 5.0vw;
     font-weight: 640;
-    margin-left: 20px;
+    margin-left: 6vw;
     color: rgb(239, 242, 244);
 }
 
 .image-banner img {
-	width: calc(100% - 40px);
+	width: calc(100% - 12vw);
 	height: auto;
     border-radius: 10px;
-    margin-left: 20px; /* 左側に30pxの余白を追加 */
-	margin-right: 20px; /* 右側に30pxの余白を追加 */
+    margin-left: 6vw; /* 左側に30pxの余白を追加 */
+	margin-right: 6vw; /* 右側に30pxの余白を追加 */
 }
 
 .banner-text {
@@ -32,8 +32,8 @@
 
 .banner-button {
     position: absolute;
-    bottom: 20px;
-    left: 40px;
+    bottom: 6vw;
+    left: 10vw;
     display: inline-block;
     padding: 10px 15px;
     color: rgba(255, 255, 255, 0.875);
