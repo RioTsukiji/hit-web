@@ -20,14 +20,14 @@ const Header = () => {
             {/* ドロワーメニューのコード */}
                 <div className={`drawer-menu ${isMenuOpen ? 'open' : ''}`}>
                     <nav>
-                        <a href="#news" onClick={toggleMenu}>News</a>
+                        <a href="#newslist" onClick={toggleMenu}>News</a>
                         <a href="#works" onClick={toggleMenu}>Works</a>
                     </nav>
                 </div>
             
 			
             <nav className="header-menu">
-                <a href="#news">News</a>
+                <a href="#newslist">News</a>
                 <a href="#works">Works</a>
             </nav> 
         </header>
