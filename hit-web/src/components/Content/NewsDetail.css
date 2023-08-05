@@ -23,7 +23,7 @@
 #newsdetail p {
 	font-size: 0.8em;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 20px; /*temporary */
 }
 
 .button {
