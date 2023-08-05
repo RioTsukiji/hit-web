@@ -1,25 +1,40 @@
 #works h2 {
     color: #6b6868;
-	font-size: 4.0vw;
+    font-size: 4.0vw;
     text-align: left;
-	margin-left: 40px;
+    margin-left: 40px;
 }
 
 section {
-    max-width: 100%;  /* 最大幅を設定 */
+    max-width: 100%;
 }
 
-.main_image img {
+.works-container {
+    display: flex;
+}
+
+.main-image {
+    width: 360vw;
+}
+
+.main-image img {
     margin-left: 10vw;
+    width: 100%;
+    height: auto;
+}
+
+.link-images {
+    display: flex;
+    flex-direction: row; /* 横並びに変更 */
+    gap: 0vw;  /* 2つのリンクイメージの間にスペースを作る */
 }
 
 .works-img {
     width: 30%;
-    height: auto;  /* 高さは自動（アスペクト比を保つ） */
+    height: auto;
 }
 
-.img-container {
+/* .app-link {
     display: flex;
-    justify-content: space-around;  /* 画像間のスペースを均等に */
-    flex-wrap: wrap;  /* 必要に応じて次の行に移動 */
-}
+    justify-content: space-around;
+} */
