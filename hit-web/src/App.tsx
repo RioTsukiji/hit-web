@@ -1,8 +1,8 @@
 import React from 'react';
-import NewsContext from './components/Content/NewsContext';
+import NewsContext from './components/Content/News/NewsContext';
 import Header from './components/Header/Header';
 import ImageBanner from './components/Banner/ImageBanner';
-import ContentColumn from './components/Content/ContentColumn';
+import ContentColumn from './components/Content/News/ContentColumn';
 import Footer from './components/Footer/Footer';
 import './App.css';
 

@@ -1,9 +1,8 @@
 import React, {useState, useContext} from 'react';
 import NewsContext from './NewsContext';
-import NewsList from './NewsList';
-import NewsDetail from './NewsDetail';
-import Works from './Works';
-import './ContentColumn.css';
+import NewsList from './NewsList/NewsList';
+import NewsDetail from './NewsDetail/NewsDetail';
+import Works from '../Works/Works';
 
 const ContentColumn = () => {
     const news = useContext(NewsContext);
