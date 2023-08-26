@@ -2,6 +2,22 @@ body {
 	padding-top: 60px;
 }
 
+.header-logo {
+    width: 160px;
+    height: auto;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 400px) {
+    /* 既存のレスポンシブスタイルはそのまま */
+
+    .header-logo {
+        width: 120px;
+        padding-left: 10px;
+    }
+}
 
 header {
 	display: flex;

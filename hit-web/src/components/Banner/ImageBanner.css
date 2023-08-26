@@ -5,8 +5,9 @@
 }
 
 .image-banner h2 {
-    font-size: 5.0vw;
-    font-weight: 640;
+    font-size: 4.0vw;
+    font-weight: 600;
+    margin-top: 1vw;
     margin-left: 6vw;
     color: rgb(239, 242, 244);
 }
@@ -40,7 +41,7 @@
     background-color: #63bbd8df; /* ボタンの背景色 */
     text-decoration: none; /* リンクの下線を消す */
     border-radius: 10px; /* ボタンの角を丸くする */
-    font-size: 4.0vw; /* フォントサイズを調整 */
+    font-size: 3.0vw; /* フォントサイズを調整 */
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.553);
 }
 
