@@ -2,7 +2,17 @@ import React from 'react';
 import './NewsDetail.css';
 import './Overlay.css'
 
-const NewsDetail = ({ news, onBack }) => { 
+interface Props {
+	news: News,
+	onBack: Function
+}
+interface News {
+	id: number,
+	title: string,
+	detail: string
+}
+
+const NewsDetail:React.FC<Props> = ({ news, onBack }) => {
     return (
 		<>
 			<div className="overlay"></div>

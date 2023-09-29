@@ -1,7 +1,16 @@
 import React from 'react';
 import './NewsList.css';
 
-const NewsList = ({news, onSelect}) => {
+interface Props {
+    news: News[],
+    onSelect: Function
+}
+interface News {
+    id: number,
+    title: string,
+    detail: string
+}
+const NewsList:React.FC<Props> = ({news, onSelect}) => {
     return (
         <section id="newslist">
             <h2>News</h2>
