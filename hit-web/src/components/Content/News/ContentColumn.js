@@ -1,11 +1,17 @@
-import React, {useState, useContext} from 'react';
+import {useState, useContext} from 'react';
 import NewsContext from './NewsContext';
 import NewsList from './NewsList/NewsList';
 import NewsDetail from './NewsDetail/NewsDetail';
 import Works from '../Works/Works';
 
+interface News {
+    id: number,
+    title: string,
+    detail: string
+}
+
 const ContentColumn = () => {
-    const news = useContext(NewsContext);
+    const news:News[] = useContext(NewsContext);
     const [selectedNews, setSelectedNews] = useState(null);
     
     return (

@@ -10,7 +10,7 @@ const Header = () => {
     
     return (
         <header>
-            <h1>Bashi.com</h1>
+            <img src="/images/logo.png" alt="Bashi.com" className="header-logo" />
             <div className="burger-menu" onClick={toggleMenu}>
                 <div></div>
                 <div></div>
