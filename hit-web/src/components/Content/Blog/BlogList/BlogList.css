@@ -1,0 +1,48 @@
+#content-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#bloglist h2 {
+    color: #6b6868;
+    font-size: 4.0vw;
+	margin-left: 40px;
+}
+
+#bloglist button {
+    align-items: center;
+} 
+
+.blogbutton-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 90%; /* 例として最大幅を800pxに設定 */
+    margin: 0 auto; /* 中央寄せするために左右のマージンを自動に設定 */
+
+  }
+  
+  .blog-button {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    opacity: 0.6;
+    background: white;
+    color: #121010;
+    border: 2.4px outset #121010;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 0px;
+    transition: all 0.15s ease-in-out;
+    font-size: 4.8vw;
+  }
+
+.blog-button:hover {
+    opacity: 1;
+	box-shadow: 0px 8px 15px rgba(4, 2, 2, 0.292);
+}
+
+p {
+	padding-left: 30px;
+}
