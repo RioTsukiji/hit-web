@@ -12,7 +12,7 @@ interface Blog {
 
 const BlogList:React.FC = () => {
   
-  const blog:Blog[] = useContext(NewsContext);
+  const blog= useContext(NewsContext);
 
   
   return (
