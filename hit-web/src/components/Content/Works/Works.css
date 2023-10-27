@@ -1,0 +1,40 @@
+#works h2 {
+    color: #6b6868;
+    font-size: 4.0vw;
+    text-align: left;
+    margin-left: 40px;
+}
+
+section {
+    max-width: 100%;
+}
+
+.works-container {
+    display: flex;
+}
+
+.main-image {
+    width: 360vw;
+}
+
+.main-image img {
+    margin-left: 10vw;
+    width: 100%;
+    height: auto;
+}
+
+.link-images {
+    display: flex;
+    flex-direction: row; /* 横並びに変更 */
+    gap: 0vw;  /* 2つのリンクイメージの間にスペースを作る */
+}
+
+.works-img {
+    width: 30%;
+    height: auto;
+}
+
+/* .app-link {
+    display: flex;
+    justify-content: space-around;
+} */
